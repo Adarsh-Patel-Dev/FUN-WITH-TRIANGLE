@@ -1,4 +1,52 @@
 body{
-    background-image: url(images/triangles2.jpg);
+    background-image: url(images/triangles.geometric.jpg);
 }
 
+/* quiz */
+
+nav{
+    background-color: pink;
+    color: aquamarine;
+    padding: 1rem;
+    margin: 0%;
+    max-width: 100%;
+}
+
+nav a{
+    padding: 1rem;
+    margin: auto;
+    
+}
+
+h1{
+    padding: auto;
+    margin-left: 1rem;
+    
+    
+}
+
+#submit-btn{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#output{
+    color: green;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.question-container{
+    margin: 2rem;
+    background-color: rgba(43, 236, 17, 0.308);
+    border-radius: 1rem;
+    padding: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+/* .quiz-form{
+    background-color: rgba(137, 43, 226, 0.5);
+    padding: 0.5rem;
+} */
