@@ -1,52 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
+
+
+:root{
+    --primary-color: red;
+    --secondary-color: blue;
+}
+
 body{
-    background-image: url(images/triangles.geometric.jpg);
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(7, 7, 7, 0.342);
 }
 
-/* quiz */
-
-nav{
-    background-color: pink;
-    color: aquamarine;
-    padding: 1rem;
-    margin: 0%;
-    max-width: 100%;
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    font-size: larger;
+    transition: 1s;
 }
 
-nav a{
+.navigation a.link:hover{
+    padding: 0.5rem 1rem;
+    color: aliceblue;
+    text-decoration: underline;
+    transition: 1s;
+    /* color: black; */
+    width: auto;
+    height: 60px;
+    margin: 15px;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.navigation{
+
+    
+    
+    background-color: black;
+    color: white;
     padding: 1rem;
     margin: auto;
+
+}
+
+.nav-brand{
+    margin: auto;
+}
+
+.navigation .nav-pills{
+    padding: 1rem 5rem;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-right: 0.5px;
+}
+
+.navigation .link{
+    color:white;
+}
+
+.navigation .link-active{
+    font-weight: bolder;
+    text-decoration-line: underline;
     
 }
 
 h1{
-    padding: auto;
-    margin-left: 1rem;
-    
-    
+    padding: 2rem;
+    font-size: xx-large;
+    letter-spacing: 0.5rem;
+    text-align: center;
 }
 
-#submit-btn{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
+h2{
+    margin-left: 2rem;
 }
 
-#output{
-    color: green;
-    margin-top: 2rem;
-    margin-left: 1rem;
+.para{
+   margin: 2rem; 
+   max-width: 60%;
+   background-color: rgba(255, 255, 255, 0.158);
+   padding: 1rem;
+}
+.quiz-form{
+    margin: 1rem 2rem;
+    background-color: rgba(32, 32, 32, 0.226);
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+   
 }
 
 .question-container{
-    margin: 2rem;
-    background-color: rgba(43, 236, 17, 0.308);
-    border-radius: 1rem;
-    padding: 0.2rem;
-    padding-bottom: 0.5rem;
+    padding: 1rem 0.5rem;
+    
 }
 
-/* .quiz-form{
-    background-color: rgba(137, 43, 226, 0.5);
+p{
+    font-weight: 600;
+    background-color: rgba(7, 7, 7, 0.342);
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+}
+
+label{
+    padding: 3rem;
+    margin: 0rem 0rem;
+}
+#submit-btn:hover{
+    margin-left: 3rem ;
     padding: 0.5rem;
-} */
+    border-radius: 0.5rem;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.616);
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+
+}
+
+#submit-btn{
+    margin:1rem 2rem ;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+#output{
+    margin: 1rem 2rem;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    margin: auto;
+    
+}
+.fa {
+    padding: 10px;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    color: white;
+    transition: 1s;
+  }
+
+  .fa-github:hover{
+      color: #624a85;
+     margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+}
+
+  .fa-linkedin:hover{
+      color: #0e76a8 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-twitter:hover{
+      color:#1DA1F2;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-instagram:hover{
+      color:#fb3958 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+  
+  footer h3{
+      
+      padding: 3rem;
+      margin: auto;
+      text-align: center;
+      color: gray;
+  }
+
+  .icon{
+      margin-left: 2rem;
+      padding: auto;
+      text-align: center;
+      font-size: x-large;
+  }
+
+  .angle-input,.angle-input1,.angle-input2,.angle-input3,.angle-input4{
+    margin: 2rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border-color: black;
+      max-width: 50%;
+  }
+
+  /* label{
+      display: grid;
+      grid-row: initials;
+      font-weight: 800;
+  } */
+

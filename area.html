@@ -5,32 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>CALCULATE AREA</title>
 </head>
 <body>
 
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="istriangle.html">IS TRIANGLE?</a>
-        <a href="quiz.html">QUIZ</a>
-        <a href="hypotenuse.html">CALCULATE HYPOTENUSE</a>
-        <a href="area.html">CALCULATE AREA</a>
-    </nav>
-    <h1>Area of triangle</h1>
-    <label for="base">Base 
-        <input type="number" class="base"/>
-    </label>
+    <nav class="navigation container">
+        <h1>
+            FUN WITH TRIANGLES📐 
+        </h1>
     
-    <label for="height">Height 
-        <input type="number" class="height"/>
-    </label>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link " href="index.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active"  href="area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="istriangle.html">Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+        
+    
+    <h2>Area of triangle</h2>
+    <p class="para">Please enter base and height of triangle to find area of triangle</p>
+    <label for="base">Base of Triangle </label>
+        <input type="number" class="angle-input1" placeholder="Enter base of triangle"/><br>
+   
+    
+    <label for="height">Height of Triangle</label>
+        <input type="number" class="angle-input2" placeholder="Enter height of triangle"/><br>
+    
 
-    <button id="areaOfTriangle">
-        Area of triangle
+    <button id="submit-btn">
+        Calculate
     </button>
 
     <div id="output"></div>
     <script src="area.js"></script>
-   
+    
 </body>
+
+<footer>
+    <h3 >Social Media Presence</h3>
+<div class="icon">
+<a href="https://github.com/Adarsh-Patel-Dev" class="fa fa-github"></a>
+<a href="https://www.linkedin.com/in/adarsh-patel-449a55175" class="fa fa-linkedin"></a>
+<a href="https://twitter.com/AdarshPatelDev?s=08" class="fa fa-twitter"></a>
+<a href="https://instagram.com/git_sit_code" class="fa fa-instagram"></a>
+ 
+</div>
+
+</footer>
+
 </html>

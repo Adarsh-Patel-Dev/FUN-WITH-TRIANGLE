@@ -5,26 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hypotenuse</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="istriangle.html">IS TRIANGLE?</a>
-        <a href="quiz.html">QUIZ</a>
-        <a href="hypotenuse.html">CALCULATE HYPOTENUSE</a>
-        <a href="area.html">CALCULATE AREA</a>
+    <nav class="navigation container">
+        <h1>
+            FUN WITH TRIANGLES📐 
+        </h1>
+    
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="index.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link"  href="area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="istriangle.html">Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+        </ul>
     </nav>
-    <h1>Calculate Hypotenuse</h1>
 
-    <label>base = </label>
-    <input type="number" class="base"/>
-    <label>height = </label>
-    <input type="number" class="height"/>
-    <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+    <nav class="container">
+    <h2>Calculate Hypotenuse</h2>
+
+    <p class="para">You can calculate Hypotenuse of triangle by entering base and height of triangle.</p>
+
+    <label for="base">Base of Triangle</label>  <input type="number" class="angle-input3" placeholder="Enter base of triangle"/><br>
+    
+    <label for="height">Height of Triangle</label><input type="number" class="angle-input4" placeholder="Enter height of triangle"/> <br>
+    
+    <button id="submit-btn">Calculate</button>
     <div id="output"></div>
 
     <script src="hypotenuse.js"></script>
-
+    </nav>
 </body>
+
+<footer>
+    <h3 >Social Media Presence</h3>
+<div class="icon">
+<a href="https://github.com/Adarsh-Patel-Dev" class="fa fa-github"></a>
+<a href="https://www.linkedin.com/in/adarsh-patel-449a55175" class="fa fa-linkedin"></a>
+<a href="https://twitter.com/AdarshPatelDev?s=08" class="fa fa-twitter"></a>
+<a href="https://instagram.com/git_sit_code" class="fa fa-instagram"></a>
+ 
+</div>
+
+</footer>
 </html>
