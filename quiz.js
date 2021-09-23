@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-form");
 const submitBtn = document.querySelector("#submit-btn");
 const output = document.querySelector("#output");
 
-const correctAnswers = ["90°", "Right angled", "Equilateral triangle", "Corresponding angles are congruent.", "360°"];
+const correctAnswers = ["90°", "Right angled", "Equilateral triangle", "Pythagoras", "360°"];
 
 
 
