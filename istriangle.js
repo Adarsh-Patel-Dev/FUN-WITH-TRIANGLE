@@ -17,7 +17,7 @@ function isTriangle(){
     }else if(inputs[0].value === "" || inputs[1].value==="" || inputs[2].value === ""){
         outputElement.innerText = "Please enter all the values 🙄";
 
-    }else if(inputs[0].value < 0 || inputs[1].value < 0 || inputs[2].value < 0){
+    }else if(inputs[0].value <= 0 || inputs[1].value <= 0 || inputs[2].value <= 0){
         outputElement.innerText = "Please enter positive values 🙄";
     }
     else{

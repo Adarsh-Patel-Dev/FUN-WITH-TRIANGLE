@@ -2,9 +2,13 @@ const quizForm = document.querySelector(".quiz-form");
 const submitBtn = document.querySelector("#submit-btn");
 const output = document.querySelector("#output");
 
-const correctAnswers = ["90°", "Right angled", "Equilateral triangle", "Corresponding angles are congurent."];
+const correctAnswers = ["90°", "Right angled", "Equilateral triangle", "Corresponding angles are congruent.", "360°"];
 
-function calculateScore(){
+
+
+  
+submitBtn.addEventListener("click", function (){
+   
     let score = 0;
     let index = 0;
     const formResults = new FormData(quizForm);
@@ -15,7 +19,6 @@ function calculateScore(){
     } index = index + 1;
  }
     output.innerText = "Your score is " + score;
+    
+});
 
-}
-
-submitBtn.addEventListener("click", calculateScore);

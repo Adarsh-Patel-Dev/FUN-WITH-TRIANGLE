@@ -20,7 +20,7 @@ function calculateHypotenuse(){
         outputDiv.innerText = "Please enter both the values!!! 🙄 ";
     }else{
     const sumOfSquares = calculateSumOfSquares(Number(height.value), Number(base.value));
-    const lengthOfHypotenuse = Math.round(Math.sqrt(sumOfSquares),2);
+    const lengthOfHypotenuse = (Math.sqrt(sumOfSquares)).toFixed(2);
     console.log(lengthOfHypotenuse);
     outputDiv.innerText = "The length of hypotenuse is " + lengthOfHypotenuse + " units.";
     }

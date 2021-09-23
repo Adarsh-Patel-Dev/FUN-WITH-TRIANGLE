@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,100 +15,118 @@
 
 
 <body>
-   <nav class="navigation container">
-    <h1>
-        FUN WITH TRIANGLES📐 
-    </h1>
+    <nav class="navigation container">
+        <h1>
+            FUN WITH TRIANGLES📐
+        </h1>
 
-    <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-            <a class="link link-active" href="index.html">Quiz</a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link"  href="area.html">Area</a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link" href="istriangle.html">Triangle?</a>
-        </li>
-        <li class="list-item-inline">
-            <a class="link" href="hypotenuse.html">Hypotenuse</a>
-        </li>
-    </ul>
-</nav>
-    
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="istriangle.html">Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
 
-    
+
+
     <h2>🔻 Triangle Quiz 🔺</h2>
     <form class="quiz-form">
         <div class="question-container">
             <p>Q1. What is the third angle for the triangle where angle1 = 45° and angle 2 = 45° ?</p>
             <label>
-                <input type="radio" name="question1" value="45°" />45°
+                <input type="radio" name="question1" value="45°" required />45°
             </label>
             <label>
-                <input type="radio" name="question1" value="60°" />60°
+                <input type="radio" name="question1" value="60°" required />60°
             </label>
             <label>
-                <input type="radio" name="question1" value="90°" />90°
+                <input type="radio" name="question1" value="90°" required />90°
             </label>
         </div>
 
         <div class="question-container">
             <p>Q2. If a triangle has an angle of 90°, what is it called?</p>
             <label>
-                <input type="radio" name="question2" value="Acute" />Acute 
+                <input type="radio" name="question2" value="Acute" required />Acute
             </label>
             <label>
-                <input type="radio" name="question2" value="Right angled" />Right angled 
-            <label>
-                <input type="radio" name="question2" value="Equilateral" />Equilateral 
-            </label>
+                <input type="radio" name="question2" value="Right angled" required />Right angled
+                <label>
+                    <input type="radio" name="question2" value="Equilateral" required />Equilateral
+                </label>
         </div>
 
         <div class="question-container">
             <p>Q3. Which of the following triangles are always similar?</p>
             <label>
                 <input type="radio" name="question3" value="
-                Right triangle" />
-                Right triangle 
+                Right triangle" required />
+                Right triangle
             </label>
             <label>
-                <input type="radio" name="question3" value="Obtuse triangle" />Obtuse triangle 
-            <label>
-                <input type="radio" name="question3" value="Equilateral triangle" />Equilateral triangle 
-            </label>
+                <input type="radio" name="question3" value="Obtuse triangle" required />Obtuse triangle
+                <label>
+                    <input type="radio" name="question3" value="Equilateral triangle" required />Equilateral triangle
+                </label>
         </div>
 
         <div class="question-container">
             <p>Q4. What is true of angles of similar triangles?</p>
             <label>
-                <input type="radio" name="question4" value="Opposite angles are congruent." />Opposite angles are congruent. 
+                <input type="radio" name="question4" value="Opposite angles are congruent." required />Opposite angles
+                are congruent.
             </label>
             <label>
-                <input type="radio" name="question4" value="Corresponding angles are congurent." />Corresponding angles are congurent. 
-            <label>
-                <input type="radio" name="question4" value="Corresponding angles are 90 degrees" />Corresponding angles are 90 degrees 
-            </label>
+                <input type="radio" name="question4" value="Corresponding angles are congruent."
+                    required />Corresponding angles are congruent.
+                <label>
+                    <input type="radio" name="question4" value="Corresponding angles are 90 degrees."
+                        required />Corresponding angles are 90 degrees.
+                </label>
         </div>
 
-        
-         
-    </form>
+        <div class="question-container">
+            <p>Q5. What is sum of exterior angles of any triangle?</p>
+            <label>
+                <input type="radio" name="question5" value="180°" required />180°
+            </label>
+            <label>
+                <input type="radio" name="question5" value="360°"
+                    required />360°
+                <label>
+                    <input type="radio" name="question5" value="540°"
+                        required />540°
+                </label>
+        </div>
 
-    <button id = "submit-btn">Submit </button>
+    </form>
+    <button id="submit-btn">submit </button>
+    
+
+
     <div id="output"></div>
     <script src="quiz.js"></script>
 
 </body>
 <footer>
-    <h3 >Social Media Presence</h3>
-<div class="icon">
-<a href="https://github.com/Adarsh-Patel-Dev" class="fa fa-github"></a>
-<a href="https://www.linkedin.com/in/adarsh-patel-449a55175" class="fa fa-linkedin"></a>
-<a href="https://twitter.com/AdarshPatelDev?s=08" class="fa fa-twitter"></a>
-<a href="https://instagram.com/git_sit_code" class="fa fa-instagram"></a>
- 
-</div>
+    <h3>Social Media Presence</h3>
+    <div class="icon">
+        <a href="https://github.com/Adarsh-Patel-Dev" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/adarsh-patel-449a55175" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/AdarshPatelDev?s=08" class="fa fa-twitter"></a>
+        <a href="https://instagram.com/git_sit_code" class="fa fa-instagram"></a>
+
+    </div>
 
 </footer>
+
 </html>
