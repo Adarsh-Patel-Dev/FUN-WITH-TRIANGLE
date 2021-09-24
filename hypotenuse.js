@@ -17,8 +17,13 @@ function calculateHypotenuse(){
     
     if( height.value === "" || base.value === "")
     {
-        outputDiv.innerText = "Please enter both the values!!! 🙄 ";
-    }else{
+        outputDiv.innerText = "Please enter both the values !!! 🙄 ";
+    }else 
+    if(Number(height.value) === 0 || Number(base.value) === 0){
+        console.log("kya");
+        outputDiv.innerText = "Height or Base can not be zero. Please enter positive values !!! 🙄 ";
+    }
+    else{
     const sumOfSquares = calculateSumOfSquares(Number(height.value), Number(base.value));
     const lengthOfHypotenuse = (Math.sqrt(sumOfSquares)).toFixed(2);
     console.log(lengthOfHypotenuse);
