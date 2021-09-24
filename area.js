@@ -10,15 +10,17 @@ function area(x, y){
 }
 function calculateArea(){
 
-    if( height.value <= 0 || base.value <= 0)
-    { 
-        output.innerText = "Please enter positive values!!!🙄";
-    }else
-
     if( height.value === '' || base.value === '')
     { 
         output.innerText = "Please enter both the values!!!🙄";
-    }else{
+    }else
+
+    if( height.value <= 0 || base.value <= 0)
+    { 
+        output.innerText = "Please enter positive values!!!🙄";
+    }
+
+    else{
 
     const areaOfTriangle = area(Number(base.value), Number(height.value));
     output.innerText = "Area of triangle is " + areaOfTriangle + " square units.";
