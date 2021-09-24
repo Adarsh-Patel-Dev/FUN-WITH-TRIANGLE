@@ -1,2 +1,14 @@
 # FUN WITH TRIANGLE
- app to learn about triangle
+ ### An app to learn about triangle. It consists of four part:
+ * QUIZ ON TRIANGLES
+ * WHETHER GIVEN ANGLES WILL FORM TRIANGLE?
+ * CALCULATE AREA OF TRIANGLE
+ * FIND HYPOTENUSE OF RIGHT ANGLED TRIANGLE
+
+
+![TRIANGLE](https://user-images.githubusercontent.com/81930207/134584581-b2f72adf-516f-4e20-a491-f40957071f41.png)
+
+#### TECH USED:
+* HTML5
+* CSS3
+* JAVASCRIPT
